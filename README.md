@@ -6,10 +6,10 @@ If you want to create a new Laravel application that will use React for client-s
 Create application
 First of all, let’s create a new laravel application:
 
-$ composer create-project laravel/laravel react-inertia-app
+```$ composer create-project laravel/laravel react-inertia-app```
 # Or you can just use Laravel CLI
-$ laravel new react-inertia-app
-$ cd react-inertia-app
+```$ laravel new react-inertia-app```
+```$ cd react-inertia-app```
 
 Server-side setup
 Now when we created a new laravel application, it’s time to install everything that we need for the server-side part of the app and configure it. So, let’s install the Inertia.js composer dependency:
